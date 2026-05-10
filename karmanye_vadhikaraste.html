@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Karmaṇy-evādhikāras Te — Bhagavad Gita 2.47</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@500;700&family=Noto+Sans+Telugu:wght@500;700&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  @page { size: A4; margin: 8mm; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: 'Noto Serif', Georgia, serif;
+    background: #fff8ef;
+    color: #2b1b0e;
+    padding: 8px 14px;
+    font-size: 10.5px;
+    line-height: 1.3;
+  }
+  .page {
+    max-width: 980px;
+    margin: 0 auto;
+    border: 2px solid #c97b1f;
+    border-radius: 10px;
+    padding: 10px 16px 12px;
+    background: radial-gradient(ellipse at top left, #fff3df 0%, #fff8ef 60%);
+  }
+  header {
+    text-align: center;
+    border-bottom: 2px dashed #c97b1f;
+    padding-bottom: 6px;
+    margin-bottom: 8px;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 19px;
+    color: #b3261e;
+    letter-spacing: 0.5px;
+  }
+  header .om { color: #d97706; font-size: 22px; vertical-align: -3px; }
+  header .sub { font-size: 10.5px; color: #5b4636; font-style: italic; margin-top: 2px; }
+
+  /* Full verse block */
+  .verse {
+    text-align: center;
+    margin: 6px 0 10px;
+    padding: 8px 10px;
+    background: #fffdf6;
+    border: 1px solid #e7c98a;
+    border-radius: 8px;
+  }
+  .verse .label {
+    font-size: 9.5px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #6b3f10;
+    margin-bottom: 4px;
+  }
+  .deva { font-family: 'Noto Sans Devanagari', serif; font-size: 16px; color: #7a1f1f; font-weight: 700; line-height: 1.4; }
+  .telu { font-family: 'Noto Sans Telugu', serif; font-size: 16px; color: #0f5132; font-weight: 700; line-height: 1.4; margin-top: 4px; }
+  .iast { font-style: italic; color: #1d4ed8; font-size: 13.5px; font-weight: 700; margin-top: 4px; }
+  .engl { color: #5b21b6; font-size: 11.5px; margin-top: 4px; }
+
+  h2.section {
+    margin: 8px 0 4px;
+    font-size: 13px;
+    color: #b3261e;
+    border-left: 4px solid #d97706;
+    padding-left: 8px;
+    background: linear-gradient(to right, #fde8c8, transparent);
+  }
+
+  table.words {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  table.words th, table.words td {
+    border: 1px solid #e6c382;
+    padding: 3px 5px;
+    vertical-align: middle;
+    text-align: center;
+  }
+  table.words th {
+    background: #f7d9a8;
+    color: #6b3f10;
+    font-size: 9.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  table.words td.iast { font-style: italic; color: #1d4ed8; font-weight: 700; font-size: 11px; }
+  table.words td.deva { font-family: 'Noto Sans Devanagari', serif; color: #7a1f1f; font-weight: 700; font-size: 13px; }
+  table.words td.telu { font-family: 'Noto Sans Telugu', serif; color: #0f5132; font-weight: 700; font-size: 13px; }
+  table.words td.pron { color: #047857; font-size: 10px; }
+  table.words td.mean { color: #5b21b6; font-size: 10px; text-align: left; }
+  table.words tr:nth-child(even) td { background: #fffaf0; }
+  table.words tr:nth-child(odd)  td { background: #fff5e1; }
+
+  .meaning-box {
+    margin-top: 8px;
+    padding: 7px 10px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #fff1d6, #ffe4c4);
+    border: 1px dashed #c97b1f;
+    font-size: 10.5px;
+    color: #4a2a08;
+  }
+  .meaning-box b { color: #b3261e; }
+  .meaning-box .quote { color: #1d4ed8; font-style: italic; }
+
+  .four-pillars {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6px;
+    margin-top: 6px;
+  }
+  .pillar {
+    border-radius: 6px;
+    padding: 5px 7px;
+    font-size: 9.8px;
+    text-align: center;
+  }
+  .p1 { background: #fde2e2; color: #7a1f1f; }
+  .p2 { background: #d6f1e1; color: #0f5132; }
+  .p3 { background: #dbeafe; color: #1d4ed8; }
+  .p4 { background: #ede9fe; color: #5b21b6; }
+  .pillar b { display: block; font-size: 11px; margin-bottom: 2px; }
+
+  footer {
+    margin-top: 6px;
+    text-align: center;
+    font-size: 9px;
+    color: #6b3f10;
+  }
+  .legend {
+    display: inline-flex;
+    gap: 10px;
+    margin-top: 2px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .legend span { padding: 1px 7px; border-radius: 8px; }
+  .lg-deva { background: #fde2e2; color: #7a1f1f; }
+  .lg-telu { background: #d6f1e1; color: #0f5132; }
+  .lg-iast { background: #dbeafe; color: #1d4ed8; }
+  .lg-engl { background: #ede9fe; color: #5b21b6; }
+  .lg-pron { background: #ccfbe9; color: #047857; }
+</style>
+</head>
+<body>
+<div class="page">
+
+<header>
+  <h1><span class="om">ॐ</span> Karmaṇy-evādhikāras Te <span class="om">ॐ</span></h1>
+  <div class="sub">Bhagavad Gītā · Chapter 2 · Verse 47 — Lord Kṛṣṇa to Arjuna · The essence of Karma-Yoga</div>
+</header>
+
+<!-- FULL VERSE -->
+<div class="verse">
+  <div class="label">Verse 2.47 — The most famous śloka of the Gītā</div>
+  <div class="deva">कर्मण्येवाधिकारस्ते मा फलेषु कदाचन ।<br>
+    मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि ॥</div>
+  <div class="telu">కర్మణ్యేవాధికారస్తే మా ఫలేషు కదాచన ।<br>
+    మా కర్మఫలహేతుర్భూర్మా తే సంగోऽస్త్వకర్మణి ॥</div>
+  <div class="iast">karmaṇy evādhikāras te mā phaleṣu kadācana<br>
+    mā karma-phala-hetur bhūr mā te saṅgo’stv akarmaṇi</div>
+  <div class="engl">“You have the right to perform your duty alone — but never to its fruits.
+    Let not the fruits of action be your motive, nor let your attachment be to inaction.”</div>
+</div>
+
+<!-- WORD BY WORD -->
+<h2 class="section">✦ Word-by-Word Breakdown</h2>
+<table class="words">
+  <colgroup>
+    <col style="width:15%"><col style="width:14%"><col style="width:14%"><col style="width:16%"><col style="width:41%">
+  </colgroup>
+  <thead>
+    <tr><th>Sanskrit (IAST)</th><th>देवनागरी</th><th>తెలుగు</th><th>Pronunciation</th><th>Meaning</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="iast">karmaṇi</td><td class="deva">कर्मणि</td><td class="telu">కర్మణి</td>
+      <td class="pron">KAR-ma-ni</td>
+      <td class="mean">in (your prescribed) action / duty</td>
+    </tr>
+    <tr>
+      <td class="iast">eva</td><td class="deva">एव</td><td class="telu">ఏవ</td>
+      <td class="pron">E-va</td>
+      <td class="mean">only, certainly (emphatic particle)</td>
+    </tr>
+    <tr>
+      <td class="iast">adhikāraḥ</td><td class="deva">अधिकारः</td><td class="telu">అధికారః</td>
+      <td class="pron">a-dhi-KAA-rah</td>
+      <td class="mean">the right, the entitlement, jurisdiction</td>
+    </tr>
+    <tr>
+      <td class="iast">te</td><td class="deva">ते</td><td class="telu">తే</td>
+      <td class="pron">te</td>
+      <td class="mean">yours, of you</td>
+    </tr>
+    <tr>
+      <td class="iast">mā</td><td class="deva">मा</td><td class="telu">మా</td>
+      <td class="pron">maa</td>
+      <td class="mean">never, do not (prohibitive)</td>
+    </tr>
+    <tr>
+      <td class="iast">phaleṣu</td><td class="deva">फलेषु</td><td class="telu">ఫలేషు</td>
+      <td class="pron">pha-LE-shu</td>
+      <td class="mean">in the fruits / results (of action)</td>
+    </tr>
+    <tr>
+      <td class="iast">kadācana</td><td class="deva">कदाचन</td><td class="telu">కదాచన</td>
+      <td class="pron">ka-DAA-cha-na</td>
+      <td class="mean">at any time, ever</td>
+    </tr>
+    <tr>
+      <td class="iast">mā</td><td class="deva">मा</td><td class="telu">మా</td>
+      <td class="pron">maa</td>
+      <td class="mean">never, let it not be</td>
+    </tr>
+    <tr>
+      <td class="iast">karma-phala</td><td class="deva">कर्मफल</td><td class="telu">కర్మఫల</td>
+      <td class="pron">KAR-ma-PHA-la</td>
+      <td class="mean">the fruit / result of action</td>
+    </tr>
+    <tr>
+      <td class="iast">hetuḥ</td><td class="deva">हेतुः</td><td class="telu">హేతుః</td>
+      <td class="pron">HE-tuh</td>
+      <td class="mean">cause, motive, reason</td>
+    </tr>
+    <tr>
+      <td class="iast">bhūḥ</td><td class="deva">भूः</td><td class="telu">భూః</td>
+      <td class="pron">bhooh</td>
+      <td class="mean">be / become (imperative — “do not be”)</td>
+    </tr>
+    <tr>
+      <td class="iast">mā</td><td class="deva">मा</td><td class="telu">మా</td>
+      <td class="pron">maa</td>
+      <td class="mean">nor, neither (let it not be)</td>
+    </tr>
+    <tr>
+      <td class="iast">te</td><td class="deva">ते</td><td class="telu">తే</td>
+      <td class="pron">te</td>
+      <td class="mean">your, of you</td>
+    </tr>
+    <tr>
+      <td class="iast">saṅgaḥ</td><td class="deva">सङ्गः</td><td class="telu">సంగః</td>
+      <td class="pron">SAN-gah</td>
+      <td class="mean">attachment, clinging, fondness</td>
+    </tr>
+    <tr>
+      <td class="iast">astu</td><td class="deva">अस्तु</td><td class="telu">అస్తు</td>
+      <td class="pron">AS-tu</td>
+      <td class="mean">let it be (imperative of √as)</td>
+    </tr>
+    <tr>
+      <td class="iast">akarmaṇi</td><td class="deva">अकर्मणि</td><td class="telu">అకర్మణి</td>
+      <td class="pron">a-KAR-ma-ni</td>
+      <td class="mean">in inaction, in not-doing</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- Four pillars summary -->
+<div class="four-pillars">
+  <div class="pillar p1"><b>1️⃣ Right to Action</b>You are entitled to <i>do</i> your duty.</div>
+  <div class="pillar p2"><b>2️⃣ Not to Fruits</b>Never claim ownership of results.</div>
+  <div class="pillar p3"><b>3️⃣ No Motive of Reward</b>Don’t act <i>because</i> of the fruit.</div>
+  <div class="pillar p4"><b>4️⃣ Nor Inaction</b>And don’t cling to doing nothing.</div>
+</div>
+
+<div class="meaning-box">
+  <b>📖 Combined meaning:</b>
+  <span class="quote">“Your authority is over action alone — never over its fruits. Do not let the result be your motive, yet do not become attached to inaction either.”</span>
+  &nbsp;This is the foundational verse of <b>Niṣkāma Karma-Yoga</b> — the path of selfless, dedicated action. Kṛṣṇa teaches Arjuna that freedom lies not in renouncing work, but in renouncing the <i>anxiety</i> of its outcome. Act fully, surrender the fruit.
+</div>
+
+<footer>
+  <div class="legend">
+    <span class="lg-deva">देवनागरी (Devanāgarī)</span>
+    <span class="lg-telu">తెలుగు (Telugu)</span>
+    <span class="lg-iast">IAST Sanskrit</span>
+    <span class="lg-pron">Pronunciation</span>
+    <span class="lg-engl">English Meaning</span>
+  </div>
+  <div>॥ श्रीमद्भगवद्गीता ॥ &nbsp;·&nbsp; Bhagavad Gītā 2.47 &nbsp;·&nbsp; The Heart of Karma-Yoga</div>
+</footer>
+
+</div>
+</body>
+</html>
