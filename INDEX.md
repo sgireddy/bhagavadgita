@@ -52,10 +52,26 @@ Color-coded study sheets with full text in **Devanāgarī**, **Telugu**, **IAST*
 | Pronunciation guide | 🟢 teal |
 | English meaning | 🟣 purple |
 
+## 📦 Fully self-contained (no internet needed)
+
+All fonts (Noto Sans Devanagari, Noto Sans Telugu, Noto Serif) are **bundled locally** in `shared/fonts/`. The HTML files reference them via `@font-face` rules in `shared/gita_style.css`, so the entire repo renders correctly offline — including PDF generation from a fresh clone with no network access.
+
+If you ever need to refresh the fonts (e.g., after a Google Fonts update), run:
+```bash
+python3 shared/fonts/download.py
+```
+
 ## 🖨️ Generating PDFs
 
 All HTML files are A4-page-sized and print-friendly. PDFs are generated via headless Chromium:
 
 ```bash
-chromium --headless --no-sandbox --print-to-pdf=output.pdf http://localhost:PORT/path/file.html
+# 1. Serve the directory locally (so relative font URLs resolve):
+python3 -m http.server 8011 &
+
+# 2. Render any sheet to PDF:
+chromium --headless --no-sandbox --print-to-pdf=output.pdf \
+  http://localhost:8011/path/file.html
 ```
+
+Or, simply open any `.html` file in a browser and use **File → Print → Save as PDF**.

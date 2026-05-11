@@ -6,7 +6,55 @@
      🔵 IAST Sanskrit   → #1d4ed8 (royal blue, italic)
      🟢 Pronunciation   → #047857 (teal)
      🟣 English meaning → #5b21b6 (purple)
+
+   Fonts are self-hosted from shared/fonts/ — fully offline.
+   URLs in @font-face are relative to THIS css file (shared/gita_style.css),
+   so they always resolve correctly regardless of where the HTML lives.
    ============================================================ */
+
+/* ---- Self-hosted fonts (no internet needed) ---- */
+@font-face {
+  font-family: 'Noto Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/noto-serif-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Noto Serif';
+  font-style: italic;
+  font-weight: 400;
+  src: url('fonts/noto-serif-400-italic.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Noto Serif';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/noto-serif-700.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans Devanagari';
+  font-style: normal;
+  font-weight: 500;
+  src: url('fonts/noto-devanagari-500.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans Devanagari';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/noto-devanagari-700.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans Telugu';
+  font-style: normal;
+  font-weight: 500;
+  src: url('fonts/noto-telugu-500.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans Telugu';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/noto-telugu-700.woff2') format('woff2');
+}
 
 @page { size: A4; margin: 10mm; }
 * { box-sizing: border-box; }
