@@ -1,0 +1,319 @@
+/* ============================================================
+   Bhagavad Gītā Trilingual Study Sheet — Shared Theme
+   Color scheme:
+     🔴 Devanagari      → #7a1f1f (deep red)
+     🟢 Telugu          → #0f5132 (forest green)
+     🔵 IAST Sanskrit   → #1d4ed8 (royal blue, italic)
+     🟢 Pronunciation   → #047857 (teal)
+     🟣 English meaning → #5b21b6 (purple)
+
+   Fonts are self-hosted from shared/fonts/ — fully offline.
+   URLs in @font-face are relative to THIS css file (shared/gita_style.css),
+   so they always resolve correctly regardless of where the HTML lives.
+   ============================================================ */
+
+/* ---- Self-hosted fonts (no internet needed) ---- */
+@font-face {
+  font-family: 'Noto Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/noto-serif-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Noto Serif';
+  font-style: italic;
+  font-weight: 400;
+  src: url('fonts/noto-serif-400-italic.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Noto Serif';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/noto-serif-700.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans Devanagari';
+  font-style: normal;
+  font-weight: 500;
+  src: url('fonts/noto-devanagari-500.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans Devanagari';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/noto-devanagari-700.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans Telugu';
+  font-style: normal;
+  font-weight: 500;
+  src: url('fonts/noto-telugu-500.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans Telugu';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/noto-telugu-700.woff2') format('woff2');
+}
+
+@page { size: A4; margin: 10mm; }
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+
+body {
+  font-family: 'Noto Serif', Georgia, serif;
+  background: #fff8ef;
+  color: #2b1b0e;
+  padding: 10px 16px;
+  font-size: 11px;
+  line-height: 1.35;
+}
+
+.page {
+  max-width: 1000px;
+  margin: 0 auto 14px;
+  border: 2px solid #c97b1f;
+  border-radius: 10px;
+  padding: 14px 20px;
+  background: radial-gradient(ellipse at top left, #fff3df 0%, #fff8ef 60%);
+  page-break-after: always;
+}
+.page:last-child { page-break-after: auto; }
+
+/* ---- Header ---- */
+header.main {
+  text-align: center;
+  border-bottom: 2px dashed #c97b1f;
+  padding-bottom: 8px;
+  margin-bottom: 10px;
+}
+header.main h1 {
+  margin: 0;
+  font-size: 22px;
+  color: #b3261e;
+  letter-spacing: 0.5px;
+}
+header.main .om { color: #d97706; font-size: 26px; vertical-align: -3px; }
+header.main .sub { font-size: 12px; color: #5b4636; font-style: italic; margin-top: 3px; }
+header.main .scripts {
+  margin-top: 4px;
+  font-family: 'Noto Sans Devanagari', serif;
+  font-size: 15px;
+  color: #7a1f1f;
+}
+header.main .scripts .telu {
+  font-family: 'Noto Sans Telugu', serif;
+  color: #0f5132;
+  margin-left: 8px;
+}
+
+/* ---- Section headings ---- */
+h2.section {
+  color: #b3261e;
+  border-left: 5px solid #d97706;
+  padding-left: 10px;
+  margin-top: 0;
+  font-size: 15px;
+}
+h3.wbw-head {
+  margin: 8px 0 2px;
+  font-size: 13px;
+  color: #b3261e;
+  border-left: 4px solid #d97706;
+  padding-left: 8px;
+  background: linear-gradient(to right, #fde8c8, transparent);
+  page-break-after: avoid;
+}
+
+/* ---- Intro / take-away boxes ---- */
+.intro, .takeaway {
+  background: linear-gradient(135deg, #fef3c7, #fde68a);
+  border-left: 5px solid #d97706;
+  border-radius: 6px;
+  padding: 10px 14px;
+  margin: 10px 0;
+  font-size: 11px;
+  color: #4a2a08;
+  line-height: 1.5;
+}
+.intro b, .takeaway b { color: #b3261e; }
+.intro .quote, .takeaway .quote { color: #1d4ed8; font-style: italic; }
+
+.takeaway {
+  background: linear-gradient(135deg, #fff1d6, #ffe4c4);
+  border-left: 5px solid #b3261e;
+  border-style: dashed;
+  border-width: 1px;
+}
+
+/* ---- Verse block ---- */
+.verse-block {
+  margin: 12px 0;
+  padding: 10px 14px;
+  border: 1px solid #e7c98a;
+  border-radius: 8px;
+  background: #fffdf6;
+  page-break-inside: avoid;
+}
+.verse-block.featured {
+  border: 2px solid #b3261e;
+  background: linear-gradient(135deg, #fff5e1, #fde8c8);
+}
+.verse-block .vlabel {
+  display: inline-block;
+  background: #d97706;
+  color: white;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 10px;
+  letter-spacing: 0.5px;
+  margin-bottom: 4px;
+}
+.verse-block.featured .vlabel { background: #b3261e; }
+.verse-block .vtheme {
+  display: inline-block;
+  font-size: 10px;
+  font-style: italic;
+  color: #6b3f10;
+  margin-left: 6px;
+}
+
+/* ---- Script blocks ---- */
+.deva {
+  font-family: 'Noto Sans Devanagari', serif;
+  font-size: 15px;
+  color: #7a1f1f;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 4px 0;
+}
+.telu {
+  font-family: 'Noto Sans Telugu', serif;
+  font-size: 15px;
+  color: #0f5132;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 4px 0;
+}
+.iast {
+  font-style: italic;
+  color: #1d4ed8;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 4px 0;
+}
+.engl {
+  color: #5b21b6;
+  font-size: 11.5px;
+  line-height: 1.4;
+  margin-top: 4px;
+  padding-top: 4px;
+  border-top: 1px dotted #c97b1f;
+}
+.engl b { color: #b3261e; }
+
+/* ---- Word-by-word table ---- */
+.wbw-iast-line {
+  font-style: italic;
+  color: #1d4ed8;
+  font-size: 10.5px;
+  margin: 2px 0 4px;
+  padding-left: 10px;
+}
+table.wbw {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  margin: 4px 0 10px;
+  font-size: 10.5px;
+}
+table.wbw th, table.wbw td {
+  border: 1px solid #e6c382;
+  padding: 3px 6px;
+  vertical-align: middle;
+  text-align: center;
+}
+table.wbw th {
+  background: #f7d9a8;
+  color: #6b3f10;
+  font-size: 9.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+table.wbw td.iast { font-style: italic; color: #1d4ed8; font-weight: 700; font-size: 11px; }
+table.wbw td.deva { font-family: 'Noto Sans Devanagari', serif; color: #7a1f1f; font-weight: 700; font-size: 12.5px; }
+table.wbw td.telu { font-family: 'Noto Sans Telugu', serif; color: #0f5132; font-weight: 700; font-size: 12.5px; }
+table.wbw td.pron { color: #047857; font-size: 10px; }
+table.wbw td.mean { color: #5b21b6; font-size: 10px; text-align: left; }
+table.wbw tr:nth-child(even) td { background: #fffaf0; }
+table.wbw tr:nth-child(odd)  td { background: #fff5e1; }
+
+/* ---- Legend & footer ---- */
+.legend {
+  text-align: center;
+  margin-top: 8px;
+  font-size: 9.5px;
+}
+.legend span { padding: 2px 7px; border-radius: 8px; margin: 0 3px; }
+.lg-deva { background: #fde2e2; color: #7a1f1f; }
+.lg-telu { background: #d6f1e1; color: #0f5132; }
+.lg-iast { background: #dbeafe; color: #1d4ed8; }
+.lg-engl { background: #ede9fe; color: #5b21b6; }
+.lg-pron { background: #ccfbe9; color: #047857; }
+
+footer.page-foot {
+  text-align: center;
+  font-size: 9px;
+  color: #6b3f10;
+  margin-top: 8px;
+  padding-top: 6px;
+  border-top: 1px dashed #c97b1f;
+}
+
+/* ---- Cross-reference box ---- */
+.xref {
+  background: #eff6ff;
+  border-left: 4px solid #1d4ed8;
+  padding: 6px 10px;
+  margin: 8px 0;
+  font-size: 10.5px;
+  color: #1e40af;
+  border-radius: 4px;
+}
+.xref b { color: #1d4ed8; }
+.xref a { color: #1d4ed8; }
+
+/* ---- Chapter map (used in overview pages) ---- */
+table.chapter-map {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0;
+  font-size: 10.5px;
+}
+table.chapter-map th, table.chapter-map td {
+  border: 1px solid #e6c382;
+  padding: 5px 8px;
+  vertical-align: top;
+}
+table.chapter-map th {
+  background: #f7d9a8;
+  color: #6b3f10;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+table.chapter-map td.ch-num {
+  text-align: center;
+  font-weight: 700;
+  color: #b3261e;
+  width: 50px;
+}
+table.chapter-map td.ch-name {
+  color: #7a1f1f;
+  font-weight: 700;
+  width: 220px;
+}
+table.chapter-map td.ch-take {
+  color: #5b21b6;
+}
