@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Yadā Yadā Hi Dharmasya — Bhagavad Gita 4.7–4.8</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@500;700&family=Noto+Sans+Telugu:wght@500;700&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  @page { size: A4; margin: 8mm; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: 'Noto Serif', Georgia, serif;
+    background: #fff8ef;
+    color: #2b1b0e;
+    padding: 8px 14px;
+    font-size: 10.2px;
+    line-height: 1.25;
+  }
+  .page {
+    max-width: 980px;
+    margin: 0 auto;
+    border: 2px solid #c97b1f;
+    border-radius: 10px;
+    padding: 8px 14px 10px;
+    background:
+      radial-gradient(ellipse at top left, #fff3df 0%, #fff8ef 60%);
+  }
+  header {
+    text-align: center;
+    border-bottom: 2px dashed #c97b1f;
+    padding-bottom: 4px;
+    margin-bottom: 6px;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 18px;
+    color: #b3261e;
+    letter-spacing: 0.5px;
+  }
+  header .om { color: #d97706; font-size: 22px; vertical-align: -3px; }
+  header .sub { font-size: 10px; color: #5b4636; font-style: italic; }
+
+  /* The full verse block */
+  .verse {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px 14px;
+    margin: 4px 0 6px;
+    padding: 6px 8px;
+    background: #fffdf6;
+    border: 1px solid #e7c98a;
+    border-radius: 6px;
+  }
+  .verse .col { text-align: center; }
+  .verse .label { font-size: 9px; text-transform: uppercase; letter-spacing: 1px; color: #6b3f10; }
+  .deva { font-family: 'Noto Sans Devanagari', serif; font-size: 13.5px; color: #7a1f1f; font-weight: 700; }
+  .telu { font-family: 'Noto Sans Telugu', serif; font-size: 13.5px; color: #0f5132; font-weight: 700; }
+  .iast { font-style: italic; color: #1d4ed8; font-size: 12px; font-weight: 700; }
+  .engl { color: #5b21b6; font-size: 11px; }
+
+  h2.section {
+    margin: 6px 0 3px;
+    font-size: 12px;
+    color: #b3261e;
+    border-left: 4px solid #d97706;
+    padding-left: 6px;
+    background: linear-gradient(to right, #fde8c8, transparent);
+  }
+
+  table.words {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  table.words th, table.words td {
+    border: 1px solid #e6c382;
+    padding: 2px 4px;
+    vertical-align: middle;
+    text-align: center;
+  }
+  table.words th {
+    background: #f7d9a8;
+    color: #6b3f10;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  table.words td.iast { font-style: italic; color: #1d4ed8; font-weight: 700; font-size: 10.5px; }
+  table.words td.deva { font-family: 'Noto Sans Devanagari', serif; color: #7a1f1f; font-weight: 700; font-size: 12px; }
+  table.words td.telu { font-family: 'Noto Sans Telugu', serif; color: #0f5132; font-weight: 700; font-size: 12px; }
+  table.words td.pron { color: #047857; font-size: 9.5px; }
+  table.words td.mean { color: #5b21b6; font-size: 9.5px; text-align: left; }
+  table.words tr:nth-child(even) td { background: #fffaf0; }
+  table.words tr:nth-child(odd)  td { background: #fff5e1; }
+
+  .meaning-box {
+    margin-top: 6px;
+    padding: 5px 8px;
+    border-radius: 6px;
+    background: linear-gradient(135deg, #fff1d6, #ffe4c4);
+    border: 1px dashed #c97b1f;
+    font-size: 10px;
+    color: #4a2a08;
+  }
+  .meaning-box b { color: #b3261e; }
+  .meaning-box .quote {
+    color: #1d4ed8;
+    font-style: italic;
+  }
+
+  footer {
+    margin-top: 4px;
+    text-align: center;
+    font-size: 8.5px;
+    color: #6b3f10;
+  }
+  .legend {
+    display: inline-flex;
+    gap: 10px;
+    margin-top: 2px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .legend span { padding: 1px 6px; border-radius: 8px; }
+  .lg-deva { background: #fde2e2; color: #7a1f1f; }
+  .lg-telu { background: #d6f1e1; color: #0f5132; }
+  .lg-iast { background: #dbeafe; color: #1d4ed8; }
+  .lg-engl { background: #ede9fe; color: #5b21b6; }
+  .lg-pron { background: #ccfbe9; color: #047857; }
+</style>
+</head>
+<body>
+<div class="page">
+
+<header>
+  <h1><span class="om">ॐ</span> Yadā Yadā Hi Dharmasya <span class="om">ॐ</span></h1>
+  <div class="sub">Bhagavad Gītā · Chapter 4 · Verses 7 & 8 — Lord Kṛṣṇa to Arjuna</div>
+</header>
+
+<!-- FULL VERSE -->
+<div class="verse">
+  <div class="col">
+    <div class="label">Verse 4.7</div>
+    <div class="deva">यदा यदा हि धर्मस्य ग्लानिर्भवति भारत ।<br>अभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम् ॥</div>
+    <div class="telu">యదా యదా హి ధర్మస్య గ్లానిర్భవతి భారత ।<br>అభ్యుత్థానమధర్మస్య తదాత్మానం సృజామ్యహమ్ ॥</div>
+    <div class="iast">yadā yadā hi dharmasya glānir bhavati bhārata<br>abhyutthānam adharmasya tadātmānaṁ sṛjāmy aham</div>
+    <div class="engl">“Whenever there is decline of righteousness, O Bhārata, and rise of unrighteousness — then I manifest Myself.”</div>
+  </div>
+  <div class="col">
+    <div class="label">Verse 4.8</div>
+    <div class="deva">परित्राणाय साधूनां विनाशाय च दुष्कृताम् ।<br>धर्मसंस्थापनार्थाय सम्भवामि युगे युगे ॥</div>
+    <div class="telu">పరిత్రాణాయ సాధూనాం వినాశాయ చ దుష్కృతామ్ ।<br>ధర్మసంస్థాపనార్థాయ సంభవామి యుగే యుగే ॥</div>
+    <div class="iast">paritrāṇāya sādhūnāṁ vināśāya ca duṣkṛtām<br>dharma-saṁsthāpanārthāya sambhavāmi yuge yuge</div>
+    <div class="engl">“For the protection of the virtuous, the destruction of evil-doers, and to re-establish dharma — I am born, age after age.”</div>
+  </div>
+</div>
+
+<!-- WORD BY WORD: VERSE 4.7 -->
+<h2 class="section">✦ Word-by-Word — Verse 4.7</h2>
+<table class="words">
+  <colgroup>
+    <col style="width:14%"><col style="width:14%"><col style="width:14%"><col style="width:16%"><col style="width:42%">
+  </colgroup>
+  <thead>
+    <tr><th>Sanskrit (IAST)</th><th>देवनागरी</th><th>తెలుగు</th><th>Pronunciation</th><th>Meaning</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="iast">yadā yadā</td><td class="deva">यदा यदा</td><td class="telu">యదా యదా</td><td class="pron">ya-DAA ya-DAA</td><td class="mean">whenever, at whatever time</td></tr>
+    <tr><td class="iast">hi</td><td class="deva">हि</td><td class="telu">హి</td><td class="pron">hi</td><td class="mean">indeed, certainly (emphatic)</td></tr>
+    <tr><td class="iast">dharmasya</td><td class="deva">धर्मस्य</td><td class="telu">ధర్మస్య</td><td class="pron">DHAR-mas-ya</td><td class="mean">of dharma — righteousness, sacred duty</td></tr>
+    <tr><td class="iast">glāniḥ</td><td class="deva">ग्लानिः</td><td class="telu">గ్లానిః</td><td class="pron">GLAA-nih</td><td class="mean">decline, decay, weakening</td></tr>
+    <tr><td class="iast">bhavati</td><td class="deva">भवति</td><td class="telu">భవతి</td><td class="pron">BHA-va-ti</td><td class="mean">becomes, happens, arises</td></tr>
+    <tr><td class="iast">bhārata</td><td class="deva">भारत</td><td class="telu">భారత</td><td class="pron">BHAA-ra-ta</td><td class="mean">O descendant of Bharata (Arjuna)</td></tr>
+    <tr><td class="iast">abhyutthānam</td><td class="deva">अभ्युत्थानम्</td><td class="telu">అభ్యుత్థానమ్</td><td class="pron">abh-yut-THAA-nam</td><td class="mean">rising up, predominance, increase</td></tr>
+    <tr><td class="iast">adharmasya</td><td class="deva">अधर्मस्य</td><td class="telu">అధర్మస్య</td><td class="pron">a-DHAR-mas-ya</td><td class="mean">of adharma — unrighteousness, evil</td></tr>
+    <tr><td class="iast">tadā</td><td class="deva">तदा</td><td class="telu">తదా</td><td class="pron">ta-DAA</td><td class="mean">then, at that time</td></tr>
+    <tr><td class="iast">ātmānam</td><td class="deva">आत्मानम्</td><td class="telu">ఆత్మానమ్</td><td class="pron">aat-MAA-nam</td><td class="mean">My own self</td></tr>
+    <tr><td class="iast">sṛjāmi</td><td class="deva">सृजामि</td><td class="telu">సృజామి</td><td class="pron">sri-JAA-mi</td><td class="mean">I create, I manifest, I send forth</td></tr>
+    <tr><td class="iast">aham</td><td class="deva">अहम्</td><td class="telu">అహమ్</td><td class="pron">A-ham</td><td class="mean">I (the Supreme Lord)</td></tr>
+  </tbody>
+</table>
+
+<!-- WORD BY WORD: VERSE 4.8 -->
+<h2 class="section">✦ Word-by-Word — Verse 4.8</h2>
+<table class="words">
+  <colgroup>
+    <col style="width:14%"><col style="width:14%"><col style="width:14%"><col style="width:16%"><col style="width:42%">
+  </colgroup>
+  <thead>
+    <tr><th>Sanskrit (IAST)</th><th>देवनागरी</th><th>తెలుగు</th><th>Pronunciation</th><th>Meaning</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="iast">paritrāṇāya</td><td class="deva">परित्राणाय</td><td class="telu">పరిత్రాణాయ</td><td class="pron">pa-ri-TRAA-naa-ya</td><td class="mean">for the deliverance / protection</td></tr>
+    <tr><td class="iast">sādhūnām</td><td class="deva">साधूनाम्</td><td class="telu">సాధూనామ్</td><td class="pron">saa-DHOO-naam</td><td class="mean">of the saintly, the virtuous ones</td></tr>
+    <tr><td class="iast">vināśāya</td><td class="deva">विनाशाय</td><td class="telu">వినాశాయ</td><td class="pron">vi-NAA-shaa-ya</td><td class="mean">for the destruction / annihilation</td></tr>
+    <tr><td class="iast">ca</td><td class="deva">च</td><td class="telu">చ</td><td class="pron">cha</td><td class="mean">and</td></tr>
+    <tr><td class="iast">duṣkṛtām</td><td class="deva">दुष्कृताम्</td><td class="telu">దుష్కృతామ్</td><td class="pron">dush-KRI-taam</td><td class="mean">of the evil-doers, miscreants</td></tr>
+    <tr><td class="iast">dharma-saṁsthāpana-arthāya</td><td class="deva">धर्मसंस्थापनार्थाय</td><td class="telu">ధర్మసంస్థాపనార్థాయ</td><td class="pron">DHAR-ma-sam-sthaa-pa-NAAR-thaa-ya</td><td class="mean">for the purpose of re-establishing dharma</td></tr>
+    <tr><td class="iast">sambhavāmi</td><td class="deva">सम्भवामि</td><td class="telu">సంభవామి</td><td class="pron">sam-bha-VAA-mi</td><td class="mean">I am born, I appear, I manifest</td></tr>
+    <tr><td class="iast">yuge yuge</td><td class="deva">युगे युगे</td><td class="telu">యుగే యుగే</td><td class="pron">yu-GE yu-GE</td><td class="mean">in age after age, in every era</td></tr>
+  </tbody>
+</table>
+
+<div class="meaning-box">
+  <b>📖 Combined meaning:</b>
+  <span class="quote">“Whenever and wherever, O Arjuna, dharma declines and adharma rises, I send forth Myself. To protect the righteous, to destroy evil-doers, and to firmly re-establish dharma — I take birth in every age.”</span>
+  &nbsp;This is Lord Kṛṣṇa’s declaration of the divine principle of <b>avatāra</b> — the eternal promise that the Supreme returns whenever cosmic balance is threatened.
+</div>
+
+<footer>
+  <div class="legend">
+    <span class="lg-deva">देवनागरी (Devanāgarī)</span>
+    <span class="lg-telu">తెలుగు (Telugu)</span>
+    <span class="lg-iast">IAST Sanskrit</span>
+    <span class="lg-pron">Pronunciation</span>
+    <span class="lg-engl">English Meaning</span>
+  </div>
+  <div>॥ श्रीमद्भगवद्गीता ॥ &nbsp;·&nbsp; Bhagavad Gītā 4.7 – 4.8</div>
+</footer>
+
+</div>
+</body>
+</html>
