@@ -33,6 +33,9 @@ files=(
   "part3_jnana/ch17_shraddha_traya.html"
   "part3_jnana/ch18_moksha_sannyasa.html"
   "reflections/00_my_question.html"
+  "reflections/01_what_dharma_is_not.html"
+  "reflections/02_the_mountain_has_many_paths.html"
+  "reflections/03_yada_yada_the_eternal_recurrence.html"
 )
 
 cd "$ROOT"

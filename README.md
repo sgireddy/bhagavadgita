@@ -35,6 +35,9 @@ A complete set of color-coded study sheets for the **entire Bhagavad Gītā**, w
 
 **📓 [Reflections](reflections/)** &nbsp;·&nbsp; *Personal essays on the broader meaning of the Gītā*
 - [00 — My Question (a personal prologue)](reflections/00_my_question.html) — why I had to learn what *dharma* actually means, and the lineage of one truth across many voices (Upaniṣads → Gītā → Buddha → Lao Tzu → Jesus → Rūmī → Tolstoy → Gandhi → King → next)
+- [01 — What Dharma Is Not](reflections/01_what_dharma_is_not.html) — the historical/linguistic recovery: the seven meanings of *dharma*, when "religion" became a category, the mistranslation of BG 3.35 / 18.47, and what the verse actually says about authenticity vs. tribal identity
+- [02 — The Mountain Has Many Paths](reflections/02_the_mountain_has_many_paths.html) — the Gītā's own stance toward different ways, drawn entirely from its own verses (4.11, 7.21–22, 9.23, 17.3, 18.66) — without recourse to any other tradition
+- [03 — Yadā Yadā: The Eternal Recurrence of Dharma](reflections/03_yada_yada_the_eternal_recurrence.html) — the cycle of voices, in original languages where possible: Īśopaniṣad · Buddha (Pāli) · Gītā (Sanskrit) · Lao Tzu (Chinese) · Jesus (Aramaic/Greek) · Rūmī (Persian) · Tolstoy (Russian) · Gandhi (Gujarati) · King (English) → and the closing meditation
 
 **📙 [Part III — Jñāna-kāṇḍa](part3_jnana/)** &nbsp;·&nbsp; Knowledge & Synthesis (Ch 13–18)
 - [Overview (Ch 13–18)](part3_jnana/part3_overview.html)

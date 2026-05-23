@@ -55,13 +55,28 @@
   font-weight: 700;
   src: url('fonts/noto-telugu-700.woff2') format('woff2');
 }
+/* CJK subset — currently only the characters used in the Lao Tzu Tao Te Ching
+   quote in reflections/03_yada_yada. Tiny (~4 KB). Add more glyphs to
+   shared/fonts/build_cjk_subset.py if future essays cite more Chinese sources. */
+@font-face {
+  font-family: 'Noto CJK Subset';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/noto-cjk-sc-subset.woff2') format('woff2');
+  /* CJK Unified Ideographs + CJK Punctuation + Fullwidth Forms */
+  unicode-range: U+3000-303F, U+4E00-9FFF, U+FF00-FFEF;
+}
 
 @page { size: A4; margin: 10mm; }
 * { box-sizing: border-box; }
 html, body { margin: 0; padding: 0; }
 
 body {
-  font-family: 'Noto Serif', Georgia, serif;
+  /* Font stack: Noto Serif covers Latin / Latin-Extended (with IAST diacritics),
+     Greek, Cyrillic, Arabic / Persian; Noto CJK Subset fills in the Chinese
+     glyphs we explicitly include (see shared/fonts/build_cjk_subset.py).
+     Devanagari and Telugu are applied per-element where needed. */
+  font-family: 'Noto Serif', 'Noto CJK Subset', Georgia, serif;
   background: #fff8ef;
   color: #2b1b0e;
   padding: 10px 16px;
