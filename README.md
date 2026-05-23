@@ -33,6 +33,9 @@ A complete set of color-coded study sheets for the **entire Bhagavad Gītā**, w
 - [Ch 11 — Viśva-Rūpa-Darśana Yoga](part2_bhakti/ch11_vishva_rupa.html)
 - [Ch 12 — Bhakti Yoga](part2_bhakti/ch12_bhakti.html)
 
+**📓 [Reflections](reflections/)** &nbsp;·&nbsp; *Personal essays on the broader meaning of the Gītā*
+- [00 — My Question (a personal prologue)](reflections/00_my_question.html) — why I had to learn what *dharma* actually means, and the lineage of one truth across many voices (Upaniṣads → Gītā → Buddha → Lao Tzu → Jesus → Rūmī → Tolstoy → Gandhi → King → next)
+
 **📙 [Part III — Jñāna-kāṇḍa](part3_jnana/)** &nbsp;·&nbsp; Knowledge & Synthesis (Ch 13–18)
 - [Overview (Ch 13–18)](part3_jnana/part3_overview.html)
 - [Ch 13 — Kṣetra-Kṣetrajña Yoga](part3_jnana/ch13_kshetra_kshetrajna.html)

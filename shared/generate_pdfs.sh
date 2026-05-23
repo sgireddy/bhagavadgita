@@ -32,6 +32,7 @@ files=(
   "part3_jnana/ch16_daivasura.html"
   "part3_jnana/ch17_shraddha_traya.html"
   "part3_jnana/ch18_moksha_sannyasa.html"
+  "reflections/00_my_question.html"
 )
 
 cd "$ROOT"
