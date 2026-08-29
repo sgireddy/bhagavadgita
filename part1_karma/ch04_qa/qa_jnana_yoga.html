@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Ch 4 Q&amp;A — Jñāna Yoga: Yadā Yadā Hi Dharmasya &amp; Beyond</title>
+<link rel="stylesheet" href="../../shared/gita_style.css">
+<style>
+  /* --------------------------------------------------------------
+     QA-specific styling (kept local so it doesn't affect other sheets).
+     Reuses the shared color scheme and font stack.
+     -------------------------------------------------------------- */
+  .qa-block { margin: 14px 0; page-break-inside: avoid; }
+  .qa-q {
+    background: linear-gradient(135deg, #dbeafe, #eff6ff);
+    border-left: 5px solid #1d4ed8;
+    border-radius: 6px;
+    padding: 8px 12px;
+    margin: 4px 0 6px;
+    font-size: 11.5px;
+    color: #1e40af;
+  }
+  .qa-q .q-label {
+    display: inline-block;
+    background: #1d4ed8;
+    color: #fff;
+    font-size: 9.5px;
+    font-weight: 700;
+    padding: 2px 7px;
+    border-radius: 10px;
+    letter-spacing: 0.5px;
+    margin-right: 6px;
+    vertical-align: 1px;
+  }
+  .qa-a {
+    background: #fffdf6;
+    border: 1px solid #e7c98a;
+    border-left: 5px solid #d97706;
+    border-radius: 6px;
+    padding: 10px 14px;
+    margin: 0 0 4px;
+    font-size: 11px;
+    color: #2b1b0e;
+    line-height: 1.5;
+  }
+  .qa-a .a-label {
+    display: inline-block;
+    background: #d97706;
+    color: #fff;
+    font-size: 9.5px;
+    font-weight: 700;
+    padding: 2px 7px;
+    border-radius: 10px;
+    letter-spacing: 0.5px;
+    margin-right: 6px;
+    vertical-align: 1px;
+  }
+  .qa-a h4 {
+    color: #b3261e;
+    margin: 10px 0 4px;
+    font-size: 12.5px;
+    border-left: 3px solid #d97706;
+    padding-left: 7px;
+  }
+  .qa-a b { color: #7a1f1f; }
+  .qa-a i, .qa-a em { color: #1d4ed8; }
+  .qa-a ul { margin: 4px 0 6px 18px; padding: 0; }
+  .qa-a li { margin: 2px 0; }
+  .qa-a .sanskrit-inline {
+    font-family: 'Noto Sans Devanagari', serif;
+    color: #7a1f1f;
+    font-weight: 700;
+  }
+  .qa-a table.qa-tbl {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 6px 0;
+    font-size: 10.5px;
+  }
+  .qa-a table.qa-tbl th, .qa-a table.qa-tbl td {
+    border: 1px solid #e6c382;
+    padding: 4px 7px;
+    vertical-align: top;
+    text-align: left;
+  }
+  .qa-a table.qa-tbl th {
+    background: #f7d9a8;
+    color: #6b3f10;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+  }
+  .qa-a table.qa-tbl tr:nth-child(even) td { background: #fffaf0; }
+  .qa-a table.qa-tbl tr:nth-child(odd)  td { background: #fff5e1; }
+  .qa-a pre.ascii {
+    background: #fff5e1;
+    border: 1px dashed #c97b1f;
+    border-radius: 4px;
+    padding: 8px 10px;
+    font-size: 10.5px;
+    color: #6b3f10;
+    line-height: 1.35;
+    margin: 6px 0;
+    overflow-x: auto;
+  }
+  .source-note {
+    background: #f5f5f4;
+    border-left: 3px solid #78716c;
+    padding: 5px 10px;
+    font-size: 9.5px;
+    color: #57534e;
+    margin: 6px 0;
+    font-style: italic;
+  }
+  .continued-marker {
+    text-align: center;
+    color: #b3261e;
+    font-weight: 700;
+    font-size: 12px;
+    margin: 14px 0 8px;
+    letter-spacing: 1px;
+  }
+  .continued-marker::before, .continued-marker::after {
+    content: " ✦✦✦ ";
+    color: #d97706;
+  }
+</style>
+</head>
+<body>
+
+<!-- ================================================================
+     PAGE 1 — INTRO + ARCHIVED CONVERSATION (Q1–Q4)
+     ================================================================ -->
+<div class="page">
+
+<header class="main">
+  <h1><span class="om">ॐ</span> Chapter 4 Q&amp;A — Jñāna Yoga <span class="om">ॐ</span></h1>
+  <div class="scripts">
+    ज्ञानकर्मसंन्यासयोगः — प्रश्नोत्तराणि
+    <span class="telu">: జ్ఞానకర్మసన్యాసయోగము — ప్రశ్నోత్తరాలు</span>
+  </div>
+  <div class="sub">A running conversation on <i>yadā yadā hi dharmasya</i>, Advaita-Vedānta, and the paradox of action</div>
+</header>
+
+<div class="intro">
+  This sheet <b>preserves an ongoing conversation</b> exploring Chapter 4 of the Gītā
+  (<i>Jñāna-Karma-Sannyāsa Yoga</i>) — from the famous <b>4.7 – 4.8</b> declaration of <i>avatāra</i>,
+  through Śaṅkarācārya's <b>Advaita</b> reading, into the paradox of <b>action-in-inaction (4.16 – 4.18)</b>,
+  the practical dilemma of <b>fighting injustice as a jñānī</b>, and finally the portrait of the
+  liberated sage (<b>4.19 – 4.23</b>) culminating in the great <b>Brahmārpaṇam mantra (4.24)</b>.<br><br>
+  The style is Q&amp;A so new questions can be appended over time. Each answer cites the
+  relevant verses in Devanāgarī + IAST + English, in keeping with the rest of this study set.
+</div>
+
+<div class="xref">
+  🔗 <b>Companion sheets:</b>
+  &nbsp;• <a href="../ch04_jnana_karma_sannyasa.html"><b>Ch 4 mini-sheet</b></a>
+  (BG 4.18 · 4.34 · 4.38)
+  &nbsp;• <a href="../../yada_yada.html"><b>yada_yada.html</b></a>
+  — full word-by-word for BG 4.7 &amp; 4.8.
+</div>
+
+<div class="source-note">
+  <b>Source note:</b> Questions Q1 – Q4 (with their answers) were captured verbatim from
+  an earlier conversation, lightly reformatted here for readability. The <b>final question Q5</b>
+  (<i>“explain 4.19 – 4.23, then explore into 4.24”</i>) was left unanswered in that transcript and is
+  answered fresh on the next page.
+</div>
+
+<h2 class="section">Q1 · Why does <i>yadā yadā hi dharmasya</i> sit inside the Jñāna Yoga chapter?</h2>
+
+<div class="qa-block">
+  <div class="qa-q">
+    <span class="q-label">Q</span>
+    <b>“Yadā yadā hi dharmasya”</b> — from the Bhagavad Gītā. Why is it a part of the Jñāna Yoga chapter?
+    How is it relevant to a <i>jñāna-yogī</i>? Cite all the relevant verses and explain.
+  </div>
+  <div class="qa-a">
+    <span class="a-label">A</span>
+    The famous phrase <i>yadā yadā hi dharmasya</i> is found in <b>Chapter 4</b> of the Bhagavad Gītā,
+    titled <b>Jñāna-Karma-Sannyāsa Yoga</b> (“The Yoga of Knowledge and the Renunciation of Action in Knowledge”).
+    While popularly heard as a promise of divine protection, it is fundamentally a discourse on
+    <b>transcendental knowledge (jñāna)</b> — the mechanics of how the Unborn Absolute manifests
+    in the relative world without being bound by material nature.
+
+    <h4>The relevant verses — BG 4.7 &amp; 4.8</h4>
+
+    <div class="verse-block">
+      <span class="vlabel">BG 4.7</span>
+      <span class="vtheme">The principle of <i>avatāra</i> — when dharma declines</span>
+      <div class="deva">यदा यदा हि धर्मस्य ग्लानिर्भवति भारत ।<br>अभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम् ॥ ४.७ ॥</div>
+      <div class="iast">yadā yadā hi dharmasya glānir bhavati bhārata |<br>abhyutthānam adharmasya tadātmānaṁ sṛjāmy aham ||</div>
+      <div class="engl"><b>“Whenever there is a decline in righteousness (dharma) and a rise
+        of unrighteousness (adharma), O Bhārata, then I manifest Myself.”</b></div>
+    </div>
+
+    <div class="verse-block">
+      <span class="vlabel">BG 4.8</span>
+      <span class="vtheme">The purpose of the descent</span>
+      <div class="deva">परित्राणाय साधूनां विनाशाय च दुष्कृताम् ।<br>धर्मसंस्थापनार्थाय सम्भवामि युगे युगे ॥ ४.८ ॥</div>
+      <div class="iast">paritrāṇāya sādhūnāṁ vināśāya ca duṣkṛtām |<br>dharma-saṁsthāpanārthāya sambhavāmi yuge yuge ||</div>
+      <div class="engl"><b>“For the protection of the virtuous, for the destruction of the wicked,
+        and to firmly establish dharma, I incarnate age after age.”</b></div>
+    </div>
+
+    <h4>Why it belongs to the Jñāna Yoga chapter</h4>
+    Chapter 4 opens with Kṛṣṇa saying He taught this eternal yoga to <b>Vivasvān</b> (the Sun-god)
+    at the beginning of creation. Arjuna, perplexed, asks how Kṛṣṇa — his contemporary — could have
+    taught someone so ancient. To answer, Kṛṣṇa shifts the conversation from a historical event
+    to a <b>metaphysical principle</b>. Verses 4.7 – 4.8 reveal the secret of divine birth
+    (<i>avatāra-rahasya</i>):
+    <ul>
+      <li><b>Ordinary beings</b> are forced into birth by the bondage of past karma.</li>
+      <li><b>The Divine</b> manifests <i>by choice</i>, through His own inner potency (<i>yogamāyā</i>),
+        while remaining perfectly unattached and aware of His true nature.</li>
+    </ul>
+    By analyzing the birth and action of the Divine, Chapter 4 establishes the fundamental jñāna
+    principle: <b>true nature is unaffected by external action</b>.
+
+    <h4>Relevance to a jñāna-yogī</h4>
+    A jñāna-yogī uses discrimination (<i>viveka</i>) to realize they are the eternal Self (<i>ātman</i>),
+    distinct from body and action. These verses serve as a direct guide:
+    <ul>
+      <li><b>Action without bondage (karma-akarma):</b> in <b>BG 4.14</b> — <i>na māṁ karmāṇi limpanti
+        na me karma-phale spṛhā</i> — Kṛṣṇa says, <i>“Actions do not contaminate Me, nor do I desire
+        their fruits.”</i> The yogī takes Kṛṣṇa's incarnation as the supreme template: act in the
+        world without ego or attachment.</li>
+      <li><b>Cosmic balance:</b> when dharma declines, the intellect (<i>buddhi</i>) is clouded by
+        ignorance (<i>ajñāna</i>). The “descent of God” is read as the awakening of divine wisdom
+        within the intellect to destroy the “evil” of ego and ignorance.</li>
+      <li><b>Liberation via this knowledge (BG 4.9):</b> <i>“He who knows the transcendental nature
+        of My birth and activities does not, upon leaving the body, take birth again — he attains Me.”</i>
+        Meditating on how the formless Supreme assumes a form <b>without losing its formless essence</b>
+        is the highest contemplative practice — it dissolves the yogī's own bodily identification.</li>
+    </ul>
+  </div>
+</div>
+
+</div><!-- /page 1 -->
+
+
+<!-- ================================================================
+     PAGE 2 — Q2 (Verses 4.9 & 4.10) + Q3 (Advaita in detail)
+     ================================================================ -->
+<div class="page">
+
+<h2 class="section">Q2 · Print and translate BG 4.9 and 4.10 (with Advaita context)</h2>
+
+<div class="qa-block">
+  <div class="qa-q">
+    <span class="q-label">Q</span>
+    Both — also print and translate 4.9 and 4.10.
+  </div>
+  <div class="qa-a">
+    <span class="a-label">A</span>
+
+    <div class="verse-block">
+      <span class="vlabel">BG 4.9</span>
+      <span class="vtheme">Knowing the divine birth ends rebirth</span>
+      <div class="deva">जन्म कर्म च मे दिव्यमेवं यो वेत्ति तत्त्वतः ।<br>त्यक्त्वा देहं पुनर्जन्म नैति मामेति सोऽर्जुन ॥ ४.९ ॥</div>
+      <div class="iast">janma karma ca me divyam evaṁ yo vetti tattvataḥ |<br>tyaktvā dehaṁ punar-janma naiti mām eti so'rjuna ||</div>
+      <div class="engl"><b>“He who thus knows, in truth, My divine birth and action — on leaving
+        the body he takes no further birth; he comes to Me, O Arjuna.”</b></div>
+    </div>
+
+    <div class="verse-block">
+      <span class="vlabel">BG 4.10</span>
+      <span class="vtheme">Purification by <i>jñāna-tapas</i></span>
+      <div class="deva">वीतरागभयक्रोधा मन्मया मामुपाश्रिताः ।<br>बहवो ज्ञानतपसा पूता मद्भावमागताः ॥ ४.१० ॥</div>
+      <div class="iast">vīta-rāga-bhaya-krodhā man-mayā mām upāśritāḥ |<br>bahavo jñāna-tapasā pūtā mad-bhāvam āgatāḥ ||</div>
+      <div class="engl"><b>“Freed from attachment, fear and anger, absorbed in Me, taking refuge in Me,
+        many — purified by the austerity of knowledge (jñāna-tapas) — have attained My state.”</b></div>
+    </div>
+
+    In short: <b>4.9</b> says one who truly grasps the divine nature of Kṛṣṇa's birth and activity
+    transcends rebirth and attains His eternal state. <b>4.10</b> adds that by dropping attachment, fear,
+    and anger, becoming absorbed in the Divine, and being purified by <b>jñāna-tapas</b> (the austerity
+    of wisdom), many have already attained oneness with His nature. Advaita Vedānta reads both verses
+    as pointing to <b>recognition of the non-dual Self</b> and liberation from dualistic illusion.
+  </div>
+</div>
+
+<h2 class="section">Q3 · Explain the Advaita Vedānta view in detail</h2>
+
+<div class="qa-block">
+  <div class="qa-q">
+    <span class="q-label">Q</span>
+    <i>“Advaita Vedānta commentary further clarifies that these verses point toward recognizing the
+    non-dual Self and achieving liberation from dualistic illusion.”</i> — Explain in detail.
+  </div>
+  <div class="qa-a">
+    <span class="a-label">A</span>
+    To read these verses through <b>Advaita Vedānta</b> (non-dualism) we turn to the commentary
+    (<i>bhāṣya</i>) of <b>Ādi Śaṅkarācārya</b>. In Advaita, the ultimate reality is <b>Brahman</b> —
+    the formless, attributeless, non-dual consciousness. Śaṅkara shifts the interpretation from a
+    physical, historical God to a <b>metaphysical realization of the Self (Ātman)</b>.
+
+    <h4>1. The illusion of divine birth — Māyā vs. Satya</h4>
+    In BG 4.7 – 4.8 Kṛṣṇa says <i>tadātmānaṁ sṛjāmy aham</i> (“I manifest Myself”).
+    <ul>
+      <li><b>Common view:</b> God takes a physical body of flesh and blood.</li>
+      <li><b>Advaita view:</b> Brahman is immutable (<i>avikārī</i>) and cannot change, be born or die.
+        The “birth” of an avatāra is an <b>appearance</b>, not a physical mutation.</li>
+      <li><b>Śaṅkara:</b> Kṛṣṇa <i>appears</i> to be born and <i>appears</i> to act only through His
+        own <b>Māyā</b> (cosmic power of appearance). He commands <i>prakṛti</i> but is never controlled by it.</li>
+      <li><b>Application:</b> the universe and your own body are also appearances sustained by māyā.
+        Just as Kṛṣṇa acts through a form while remaining free, the yogī realizes their true identity
+        (Ātman) acts through the human body while remaining untouched.</li>
+    </ul>
+
+    <h4>2. Deconstructing 4.9 — what does “knowing” mean?</h4>
+    <ul>
+      <li>“Knowing” is <b>not intellectual data</b> or blind belief in a deity. It is
+        <b>experiential realization</b> (<i>aparokṣa-anubhūti</i>).</li>
+      <li><b>The non-dual equation:</b> to truly know the birthless nature of the Divine is to
+        realize that <b>your own innermost Self is also birthless</b>.</li>
+      <li><b>Why does this stop rebirth?</b> Rebirth is caused by <i>ajñāna</i> — the false belief
+        “I am this limited body.” When the yogī realizes they are the unchangeable consciousness
+        that <b>projects</b> the universe, the seed of karma is burnt, and the illusion of a
+        separate ego dying and being reborn simply vanishes.</li>
+    </ul>
+
+    <h4>3. Deconstructing 4.10 — the process of <i>jñāna-tapas</i></h4>
+    Śaṅkara places enormous emphasis on <i>jñāna-tapasā pūtāḥ</i> — “purified by the austerity of knowledge.”
+
+    <pre class="ascii">[Rāga · Bhaya · Krodha]  →  dissolved by  [Viveka + Vairāgya]
+                          →  purified by  [Jñāna-Tapas]
+                          →  realization of [Oneness / Brahman]</pre>
+
+    <ul>
+      <li><b>The purifying fire:</b> <i>tapas</i> usually implies physical austerity (fasting, vows).
+        Advaita declares <b>contemplation on the non-dual Truth</b> to be the highest tapas — the
+        psychological fire that burns the impurities of mind.</li>
+      <li><b>Eradicating the triad:</b> attachment (<i>rāga</i>), fear (<i>bhaya</i>) and anger
+        (<i>krodha</i>) can only exist in <b>duality</b>. You attach to a second, you fear a second,
+        you get angry when a second blocks your desire. Meditation on <i>“there is no second”</i>
+        (<i>ekam eva advitīyam</i>) dissolves all three.</li>
+      <li><b>“Attained My state”</b> (<i>mad-bhāvam āgatāḥ</i>): in dualistic paths the devotee goes to
+        a heaven to live with God. In Advaita, <i>mad-bhāva</i> means becoming <b>identical</b> with
+        God's nature. The wave realizes it has always been the ocean.</li>
+    </ul>
+
+    <h4>Summary — the Advaita reading side-by-side</h4>
+    <table class="qa-tbl">
+      <thead><tr><th>Concept</th><th>Dualistic reading</th><th>Advaita Vedānta reading</th></tr></thead>
+      <tbody>
+        <tr><td><b>Avatāra (4.7)</b></td><td>God physically descends to earth.</td>
+            <td>Consciousness appears as a form via Māyā.</td></tr>
+        <tr><td><b>Destruction of the wicked (4.8)</b></td><td>Killing physical demons.</td>
+            <td>Eradicating ignorance (ajñāna) and ego.</td></tr>
+        <tr><td><b>Knowing Kṛṣṇa (4.9)</b></td><td>Believing in Kṛṣṇa's divinity.</td>
+            <td>Realizing the identity of Ātman and Brahman.</td></tr>
+        <tr><td><b>“My state” (4.10)</b></td><td>Going to a divine realm (Vaikuṇṭha).</td>
+            <td>Recognizing your inherent, non-dual liberation.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+</div><!-- /page 2 -->
+
+
+<!-- ================================================================
+     PAGE 3 — Q4 (verses 4.16–4.18: karma / akarma / vikarma)
+     ================================================================ -->
+<div class="page">
+
+<h2 class="section">Q4 · Kṛṣṇa's definitions of action, inaction, and forbidden action (4.16 – 4.18)</h2>
+
+<div class="qa-block">
+  <div class="qa-q">
+    <span class="q-label">Q</span>
+    Examine Sri Kṛṣṇa's definitions of action, inaction and forbidden action (Verses 4.16 – 4.18),
+    which form the practical core of this knowledge for a yogī.
+  </div>
+  <div class="qa-a">
+    <span class="a-label">A</span>
+
+    In 4.16 – 4.18 Kṛṣṇa introduces one of the most profound paradoxes in the entire Gītā: how to act
+    in the material world without accumulating karmic bondage. For a jñāna-yogī, resolving this
+    distinction is the ultimate test of <i>viveka</i>.
+
+    <div class="verse-block">
+      <span class="vlabel">BG 4.16</span>
+      <span class="vtheme">Even the wise are confused about action &amp; inaction</span>
+      <div class="deva">किं कर्म किमकर्मेति कवयोऽप्यत्र मोहिताः ।<br>तत्ते कर्म प्रवक्ष्यामि यज्ज्ञात्वा मोक्ष्यसेऽशुभात् ॥ ४.१६ ॥</div>
+      <div class="iast">kiṁ karma kim akarmeti kavayo'py atra mohitāḥ |<br>tat te karma pravakṣyāmi yaj jñātvā mokṣyase'śubhāt ||</div>
+      <div class="engl"><b>“Even the wise are confused as to what is action (karma) and what is
+        inaction (akarma). I shall explain to you that action, knowing which you shall be freed
+        from all evil.”</b></div>
+    </div>
+
+    <div class="verse-block">
+      <span class="vlabel">BG 4.17</span>
+      <span class="vtheme">Three categories — <i>gahanā karmaṇo gatiḥ</i></span>
+      <div class="deva">कर्मणो ह्यपि बोद्धव्यं बोद्धव्यं च विकर्मणः ।<br>अकर्मणश्च बोद्धव्यं गहना कर्मणो गतिः ॥ ४.१७ ॥</div>
+      <div class="iast">karmaṇo hy api boddhavyaṁ boddhavyaṁ ca vikarmaṇaḥ |<br>akarmaṇaś ca boddhavyaṁ gahanā karmaṇo gatiḥ ||</div>
+      <div class="engl"><b>“The truth about action must be understood, and also that of forbidden
+        action (vikarma) and of inaction (akarma). The way of action is deep and mysterious.”</b></div>
+    </div>
+
+    <div class="verse-block featured">
+      <span class="vlabel">BG 4.18</span>
+      <span class="vtheme">The twin paradox — inaction in action, action in inaction</span>
+      <div class="deva">कर्मण्यकर्म यः पश्येदकर्मणि च कर्म यः ।<br>स बुद्धिमान्मनुष्येषु स युक्तः कृत्स्नकर्मकृत् ॥ ४.१८ ॥</div>
+      <div class="iast">karmaṇy akarma yaḥ paśyed akarmaṇi ca karma yaḥ |<br>sa buddhimān manuṣyeṣu sa yuktaḥ kṛtsna-karma-kṛt ||</div>
+      <div class="engl"><b>“One who sees inaction in action, and action in inaction — he is the wise
+        one among men, a yogī established in the Self, and a doer of all action.”</b></div>
+    </div>
+
+    <h4>The practical core — three categories of activity</h4>
+    <pre class="ascii">                [Human Experience]
+                         │
+              ┌──────────┼──────────┐
+              ▼          ▼          ▼
+            Karma     Vikarma     Akarma
+           (Action)  (Forbidden) (Inaction)</pre>
+
+    <ul>
+      <li><b>Karma (action):</b> duties prescribed by scripture or by one's own nature (<i>svadharma</i>)
+        performed for the upliftment of society and personal purification.</li>
+      <li><b>Vikarma (forbidden action):</b> actions driven by intense ego, greed or malice, running
+        counter to dharma and deepening cosmic ignorance.</li>
+      <li><b>Akarma (inaction):</b> <b>not</b> physical laziness. For the jñānī, akarma is action
+        performed with <b>zero ego-sense</b> (<i>ahaṁkāra</i>). With no doer, no karmic seed is planted.</li>
+    </ul>
+
+    <h4>Deconstructing 4.18 — the twin paradox (Śaṅkara)</h4>
+
+    <b>1. Seeing inaction in action (<i>karmaṇy akarma</i>)</b>
+    <ul>
+      <li><i>Ignorant view:</i> “I am moving my hands, talking, working — therefore <b>I</b> am acting.”</li>
+      <li><i>Jñāna view:</i> the yogī watches body, senses and mind moving through the world, but
+        anchors awareness in the <b>Ātman — the silent, unmoving witness (sākṣī)</b>.</li>
+      <li><i>Realization:</i> the body may be in intense action, yet the true Self is in perfect inaction —
+        like sitting still on a speeding train.</li>
+    </ul>
+
+    <b>2. Seeing action in inaction (<i>akarmaṇi karma</i>)</b>
+    <ul>
+      <li><i>Ignorant view:</i> “I am sitting perfectly still with eyes closed — therefore I am inactive.”</li>
+      <li><i>Jñāna view:</i> if the mind is brewing with desires, ego, calculations, or the pride of
+        <i>“look how spiritual I am for doing nothing,”</i> that is massive karma being generated.</li>
+      <li><i>Realization:</i> physical stillness mixed with egoistic attachment is intense action —
+        the ego is still claiming ownership of “not-acting.”</li>
+    </ul>
+
+    <h4>Why this yogī is <i>kṛtsna-karma-kṛt</i></h4>
+    Kṛṣṇa calls this person <b>kṛtsna-karma-kṛt</b> — “one who has done <i>all</i> that needs to be
+    done.” For an ordinary person, action is endless because every action breeds new desire or debt.
+    For the jñānī, having realized the birthless, actionless Self, the entire chain of cause-and-effect
+    <b>terminates</b>. The ultimate purpose of human life has been fulfilled.
+  </div>
+</div>
+
+</div><!-- /page 3 -->
+
+
+<!-- ================================================================
+     PAGE 4 — Q5 (Injustice, Mahābhārata, the jñānī on the battlefield)
+     ================================================================ -->
+<div class="page">
+
+<h2 class="section">Q5 · The jñānī and the fight for justice — an inner Mahābhārata</h2>
+
+<div class="qa-block">
+  <div class="qa-q">
+    <span class="q-label">Q</span>
+    <i>“If a person sits silently but their mind is brewing with desires, ego, calculations, or the
+    pride of saying ‘look how spiritual I am for doing nothing,’ they are accumulating massive karma.”</i>
+    — But how does the <b>sense of injustice</b> and the jñāna-realization that <b>something needs to
+    be done</b> about it — this action itself being a battle like the Mahābhārata — how does the jñānī
+    who has realized that justice must be preserved handle this state?
+  </div>
+  <div class="qa-a">
+    <span class="a-label">A</span>
+    For a jñānī, encountering injustice is a unique metaphysical challenge. How does a person who knows
+    the world is māyā and that the true Self is birthless and deathless step onto a bloody battlefield
+    to fight for justice? This is <b>exactly</b> Arjuna's crisis — and Kṛṣṇa's answer in Chapter 4 is
+    the blueprint. A jñānī handles the call to fight injustice <b>not through emotional outrage but
+    through sacred, unattached duty</b>.
+
+    <h4>1. The inner and outer Mahābhārata</h4>
+    <ul>
+      <li><b>Outer battle:</b> preserving dharma in society (BG 4.7 – 4.8). Injustice is a disruption
+        of cosmic order; left unchecked it destroys the very social fabric needed for spiritual growth.</li>
+      <li><b>Inner battle:</b> the psychological war between the higher Self (<i>buddhi</i>) and the
+        lower self (<i>ahaṁkāra</i> — ego driven by desire and attachment).</li>
+    </ul>
+    When a jñānī sees injustice that “needs to be done about,” they don't experience personal,
+    ego-driven anger. They recognize that <b>adharma must be corrected</b>, and they allow body
+    and mind to become an <b>instrument</b> for that correction.
+
+    <h4>2. Three core principles — how the jñānī fights</h4>
+
+    <b>A. Operating as an instrument (<i>nimitta-mātram</i>)</b><br>
+    An ordinary person fights out of personal anger — <i>“How dare they do this to me?”</i> — which
+    creates heavy karmic bondage. The jñānī detaches ego from the action. They know Īśvara is the
+    ultimate director of cosmic balance: <i>“I am not the doer; the Divine Will operates through this
+    body to restore order.”</i> Later, at Kurukṣetra, Kṛṣṇa will say to Arjuna
+    <span class="sanskrit-inline">निमित्तमात्रं भव सव्यसाचिन्</span>
+    (<i>nimitta-mātraṁ bhava savyasācin</i> — <b>BG 11.33</b>) — “be thou merely My instrument.”
+
+    <br><br>
+    <b>B. Merging action into inaction (<i>karmaṇy akarma</i>)</b><br>
+    When the jñānī fights, goes to court, protests, or engages in conflict to preserve justice,
+    verse 4.18 is applied:
+    <ul>
+      <li><b>Outer reality:</b> intensely engaged in fierce conflict (<b>action</b>).</li>
+      <li><b>Inner reality:</b> mind anchored in the unmoving witness (<b>inaction</b>) — the true
+        Self cannot be harmed.</li>
+    </ul>
+    Because no personal greed or hatred drives the fight, the jñānī accumulates <b>zero karma</b>
+    from the intensity or violence of the battle.
+
+    <br><br>
+    <b>C. Purification of intent (<i>jñāna-yajña</i>)</b><br>
+    To ensure the fight for justice does not devolve into an ego-trip, the jñānī treats the entire
+    battle as a <b>sacrifice</b>. BG 4.23 (previewed here, expanded on the next page):
+    <i>“Of the man free from attachment, liberated, whose mind is established in knowledge, who acts
+    solely for the sake of sacrifice — his entire karma dissolves.”</i>
+
+    <h4>3. Ordinary person's fight vs. jñānī's fight</h4>
+    <table class="qa-tbl">
+      <thead><tr><th>Feature</th><th>Ordinary person's fight</th><th>Jñānī's fight</th></tr></thead>
+      <tbody>
+        <tr><td><b>Root catalyst</b></td>
+            <td>Personal outrage, hatred, fear.</td>
+            <td>Objective perception of cosmic imbalance.</td></tr>
+        <tr><td><b>Internal state</b></td>
+            <td>Agitated; anxious about winning or losing.</td>
+            <td>Serene; anchored in the eternal Ātman.</td></tr>
+        <tr><td><b>Target</b></td>
+            <td>Hating the “evil” person.</td>
+            <td>Neutralizing the “evil” tendency (adharma).</td></tr>
+        <tr><td><b>Karmic result</b></td>
+            <td>Binds them heavily to the cycle of rebirth.</td>
+            <td>Frees them — the act itself becomes a means of liberation.</td></tr>
+      </tbody>
+    </table>
+
+    <h4>The ultimate resolution</h4>
+    A jñānī does <b>not</b> use the illusory nature of the world as an excuse for cowardice or
+    inaction. To act to preserve justice is the highest expression of cosmic order. They step onto
+    the battlefield of life, fight with absolute intensity and flawless precision, and remain
+    completely at peace within — knowing that in the absolute view, no one is truly killing and
+    no one is truly being killed (<b>BG 2.19 – 2.20</b>).
+  </div>
+</div>
+
+<div class="continued-marker">Continued — from here the conversation is answered fresh</div>
+
+</div><!-- /page 4 -->
+
+
+<!-- ================================================================
+     PAGE 5 — Q6 (NEW): Verses 4.19 – 4.23 — portrait of the sage
+     ================================================================ -->
+<div class="page">
+
+<h2 class="section">Q6 · Explain 4.19 – 4.23 — the portrait of the sage whose karma has dissolved</h2>
+
+<div class="qa-block">
+  <div class="qa-q">
+    <span class="q-label">Q</span>
+    Explain 4.19 – 4.23, then explore into Bhagavad Gītā 4.24 as suggested.
+  </div>
+  <div class="qa-a">
+    <span class="a-label">A</span>
+    Having stated the great paradox in 4.18 — <i>“see inaction in action and action in inaction”</i> —
+    Kṛṣṇa now paints, in five successive verses, the <b>daily life of a person who actually lives
+    that paradox</b>. Each verse tightens the definition until, by 4.23, all karma has dissolved.
+    Then 4.24 reveals <i>why</i>: because, in the vision of the sage, the act itself was never
+    anything other than Brahman.
+
+    <div class="verse-block">
+      <span class="vlabel">BG 4.19</span>
+      <span class="vtheme">Action burnt in the fire of knowledge</span>
+      <div class="deva">यस्य सर्वे समारम्भाः कामसङ्कल्पवर्जिताः ।<br>ज्ञानाग्निदग्धकर्माणं तमाहुः पण्डितं बुधाः ॥ ४.१९ ॥</div>
+      <div class="iast">yasya sarve samārambhāḥ kāma-saṅkalpa-varjitāḥ |<br>jñānāgni-dagdha-karmāṇaṁ tam āhuḥ paṇḍitaṁ budhāḥ ||</div>
+      <div class="engl"><b>“He whose every undertaking is free from desire and selfish intention,
+        whose actions are burnt in the fire of knowledge — him the wise call a <i>paṇḍita</i> (sage).”</b><br>
+        The image is decisive: <b>jñānāgni</b> — the fire of knowledge — <b>burns the karmic
+        seed</b>. What remains looks like action but cannot sprout into future bondage, exactly as
+        a roasted seed can no longer germinate.</div>
+    </div>
+
+    <div class="verse-block">
+      <span class="vlabel">BG 4.20</span>
+      <span class="vtheme">Acting yet doing nothing at all</span>
+      <div class="deva">त्यक्त्वा कर्मफलासङ्गं नित्यतृप्तो निराश्रयः ।<br>कर्मण्यभिप्रवृत्तोऽपि नैव किञ्चित्करोति सः ॥ ४.२० ॥</div>
+      <div class="iast">tyaktvā karma-phalāsaṅgaṁ nitya-tṛpto nirāśrayaḥ |<br>karmaṇy abhipravṛtto'pi naiva kiñcit karoti saḥ ||</div>
+      <div class="engl"><b>“Having abandoned attachment to the fruits of action, ever-content,
+        depending on nothing — though fully engaged in action, he does nothing at all.”</b><br>
+        This is 4.18 lived out. The three-fold hallmark of the sage: <b>tyakta-phala-saṅga</b>
+        (attachment to results dropped), <b>nitya-tṛpta</b> (fulfillment sourced from within, not from
+        outcomes) and <b>nirāśraya</b> (leaning on nothing external for identity).</div>
+    </div>
+
+    <div class="verse-block">
+      <span class="vlabel">BG 4.21</span>
+      <span class="vtheme">Action “by the body alone” — no sin sticks</span>
+      <div class="deva">निराशीर्यतचित्तात्मा त्यक्तसर्वपरिग्रहः ।<br>शारीरं केवलं कर्म कुर्वन्नाप्नोति किल्बिषम् ॥ ४.२१ ॥</div>
+      <div class="iast">nirāśīr yata-cittātmā tyakta-sarva-parigrahaḥ |<br>śārīraṁ kevalaṁ karma kurvan nāpnoti kilbiṣam ||</div>
+      <div class="engl"><b>“Free from expectation, with mind and body controlled, having given up
+        all sense of possession — performing action by the body alone, he incurs no sin.”</b><br>
+        <i>Śārīraṁ kevalaṁ karma</i> is the key: only <b>the body</b> acts — for food, for duty,
+        for the maintenance of dharma. The <b>“I” has stepped out of the driver's seat</b>, so no
+        karmic residue clings to the Self.</div>
+    </div>
+
+    <div class="verse-block">
+      <span class="vlabel">BG 4.22</span>
+      <span class="vtheme">Beyond the pairs of opposites</span>
+      <div class="deva">यदृच्छालाभसन्तुष्टो द्वन्द्वातीतो विमत्सरः ।<br>समः सिद्धावसिद्धौ च कृत्वापि न निबध्यते ॥ ४.२२ ॥</div>
+      <div class="iast">yadṛcchā-lābha-santuṣṭo dvandvātīto vimatsaraḥ |<br>samaḥ siddhāv asiddhau ca kṛtvāpi na nibadhyate ||</div>
+      <div class="engl"><b>“Content with whatever comes unsought, gone beyond the pairs of opposites,
+        free of envy, equal in success and failure — though acting, he is not bound.”</b><br>
+        Four practical marks of the sage: <b>yadṛcchā-santuṣṭa</b> (contentment with what fate
+        delivers), <b>dvandva-atīta</b> (beyond heat/cold, pleasure/pain, praise/blame),
+        <b>vi-matsara</b> (free of envy — the very root of resentment that fuels most social
+        conflict), <b>sama-siddhy-asiddhi</b> (equal in success and failure).</div>
+    </div>
+
+    <div class="verse-block featured">
+      <span class="vlabel">BG 4.23</span>
+      <span class="vtheme">All karma dissolves — action as <i>yajña</i></span>
+      <div class="deva">गतसङ्गस्य मुक्तस्य ज्ञानावस्थितचेतसः ।<br>यज्ञायाचरतः कर्म समग्रं प्रविलीयते ॥ ४.२३ ॥</div>
+      <div class="iast">gata-saṅgasya muktasya jñānāvasthita-cetasaḥ |<br>yajñāyācarataḥ karma samagraṁ pravilīyate ||</div>
+      <div class="engl"><b>“For one whose attachment has gone, who is liberated, whose mind is
+        established in knowledge, who acts for the sake of sacrifice (<i>yajña</i>) — his entire
+        karma dissolves (<i>samagraṁ pravilīyate</i>).”</b><br>
+        This is the pivot of the whole chapter. The four qualifications — <b>gata-saṅga</b>,
+        <b>mukta</b>, <b>jñāna-avasthita-cetasa</b>, <b>yajñāya ācarataḥ</b> — describe the state
+        in which <b>every act becomes a sacrifice</b>, and therefore leaves no karmic imprint.</div>
+    </div>
+
+    <h4>The arc of 4.19 – 4.23 — five stages of one movement</h4>
+    <table class="qa-tbl">
+      <thead><tr><th>Verse</th><th>Focus</th><th>What burns / dissolves</th></tr></thead>
+      <tbody>
+        <tr><td><b>4.19</b></td><td>Motive is purged</td>
+            <td>Selfish intention (<i>kāma-saṅkalpa</i>) — karma burnt in the fire of knowledge.</td></tr>
+        <tr><td><b>4.20</b></td><td>Attachment to fruits is dropped</td>
+            <td>The <b>doer</b> — “though acting, he does nothing at all.”</td></tr>
+        <tr><td><b>4.21</b></td><td>Possessiveness dissolves</td>
+            <td>“Mine-ness” (<i>parigraha</i>) — action becomes merely bodily.</td></tr>
+        <tr><td><b>4.22</b></td><td>Duality is transcended</td>
+            <td>The <b>reactive mind</b> — no longer bounces between success/failure, envy/pride.</td></tr>
+        <tr><td><b>4.23</b></td><td>Action becomes yajña</td>
+            <td><b>All karma dissolves</b> — the sage has become sacrificial fire itself.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="intro" style="margin-top:8px">
+      Notice the movement: <b>motive → doer → possessiveness → reactivity → karma itself</b>.
+      Each verse strips away one more layer of the ego-structure. By 4.23 nothing remains to be
+      bound, because nothing remains to <b>own</b> the action. The stage is set for 4.24, which
+      answers a natural next question: <i>if all this dissolves, what is left?</i>
+    </div>
+  </div>
+</div>
+
+</div><!-- /page 5 -->
+
+
+<!-- ================================================================
+     PAGE 6 — Q6 continued: BG 4.24 — Brahmārpaṇam Brahma Haviḥ
+     ================================================================ -->
+<div class="page">
+
+<h2 class="section">Q6 (cont.) · BG 4.24 — <i>Brahmārpaṇam Brahma Haviḥ</i></h2>
+
+<div class="qa-block">
+  <div class="qa-a">
+    <span class="a-label">A</span>
+
+    Verse 4.23 said the sage's karma <b>dissolves</b>. Verse 4.24 tells us <b>into what</b>.
+
+    <div class="verse-block featured">
+      <span class="vlabel">BG 4.24</span>
+      <span class="vtheme">The great mantra of non-dual action</span>
+      <div class="deva">ब्रह्मार्पणं ब्रह्म हविर्ब्रह्माग्नौ ब्रह्मणा हुतम् ।<br>ब्रह्मैव तेन गन्तव्यं ब्रह्मकर्मसमाधिना ॥ ४.२४ ॥</div>
+      <div class="telu">బ్రహ్మార్పణం బ్రహ్మ హవిర్ బ్రహ్మాగ్నౌ బ్రహ్మణా హుతమ్ ।<br>బ్రహ్మైవ తేన గంతవ్యం బ్రహ్మకర్మసమాధినా ॥ ౪.౨౪ ॥</div>
+      <div class="iast">brahmārpaṇaṁ brahma havir brahmāgnau brahmaṇā hutam |<br>brahmaiva tena gantavyaṁ brahma-karma-samādhinā ||</div>
+      <div class="engl"><b>“The offering is Brahman. The oblation is Brahman. Poured by Brahman into
+        the fire of Brahman. Brahman alone is to be reached by him whose <i>samādhi</i> is in
+        Brahman-as-action.”</b></div>
+    </div>
+
+    <h4>Word-by-word — the five Brahmans of 4.24</h4>
+    <table class="wbw">
+      <colgroup><col style="width:22%"><col style="width:20%"><col style="width:20%"><col style="width:38%"></colgroup>
+      <thead><tr><th>IAST</th><th>देवनागरी</th><th>Pronunciation</th><th>Meaning</th></tr></thead>
+      <tbody>
+        <tr><td class="iast">brahma-arpaṇam</td><td class="deva">ब्रह्मार्पणम्</td><td class="pron">BRAH-maar-pa-nam</td><td class="mean">the <b>act of offering</b> itself is Brahman (the ladle / process)</td></tr>
+        <tr><td class="iast">brahma haviḥ</td><td class="deva">ब्रह्म हविः</td><td class="pron">BRAH-ma HA-vih</td><td class="mean">the <b>oblation</b> (what is offered) is Brahman</td></tr>
+        <tr><td class="iast">brahma-agnau</td><td class="deva">ब्रह्माग्नौ</td><td class="pron">brah-MAAG-nau</td><td class="mean">into the <b>fire</b> which is Brahman</td></tr>
+        <tr><td class="iast">brahmaṇā hutam</td><td class="deva">ब्रह्मणा हुतम्</td><td class="pron">BRAH-ma-naa HU-tam</td><td class="mean">offered <b>by</b> Brahman (the doer is Brahman)</td></tr>
+        <tr><td class="iast">brahma eva</td><td class="deva">ब्रह्मैव</td><td class="pron">BRAH-mai-va</td><td class="mean">Brahman <b>alone</b>…</td></tr>
+        <tr><td class="iast">tena gantavyam</td><td class="deva">तेन गन्तव्यम्</td><td class="pron">TE-na gan-TAV-yam</td><td class="mean">…is to be reached <b>by him</b></td></tr>
+        <tr><td class="iast">brahma-karma-samādhinā</td><td class="deva">ब्रह्मकर्मसमाधिना</td><td class="pron">BRAH-ma-KAR-ma-sa-MAA-dhi-naa</td><td class="mean">one whose <b>samādhi</b> is: “action itself is Brahman”</td></tr>
+      </tbody>
+    </table>
+
+    <h4>Why this verse is the metaphysical peak of Chapter 4</h4>
+    In the Vedic yajña there are five elements: (1) the <b>offering</b>, (2) the <b>oblation</b>
+    (what is offered), (3) the <b>fire</b>, (4) the <b>offerer</b>, and (5) the <b>goal</b> reached
+    through the sacrifice. Ordinary ritual treats these as five distinct things. Verse 4.24 <b>collapses
+    all five into Brahman</b>:
+
+    <pre class="ascii">   Ordinary yajña        →       Jñānī's yajña (4.24)
+   ─────────────────────────────────────────────────
+   ladle / offering      →       Brahman
+   oblation (havis)      →       Brahman
+   fire (agni)           →       Brahman
+   offerer (hotā)        →       Brahman
+   goal (phala)          →       Brahman</pre>
+
+    Śaṅkara's <i>bhāṣya</i>: for the sage established in this vision, <b>the act of eating, walking,
+    breathing, or fighting is itself Brahman offering Brahman into Brahman</b>. There is nothing
+    <i>outside</i> the offering. Since there is no “second,” there is nothing to bind and nothing to
+    be bound.
+
+    <h4>Coming back to the jñānī on the battlefield</h4>
+    Recall the question from Q5: <i>how does the jñānī who sees injustice actually fight?</i>
+    Verse 4.24 is the final answer.
+
+    <ul>
+      <li>The <b>weapon</b> lifted is Brahman.</li>
+      <li>The <b>opponent</b> (as form-in-consciousness) is Brahman.</li>
+      <li>The <b>battlefield</b> — the fire in which the offering is made — is Brahman.</li>
+      <li>The <b>warrior</b> (as body-mind-instrument) is Brahman.</li>
+      <li>The <b>victory</b> (the goal reached) is Brahman.</li>
+    </ul>
+
+    This is precisely Kṛṣṇa's later instruction to Arjuna:
+    <span class="sanskrit-inline">तस्मादुत्तिष्ठ कौन्तेय युद्धाय कृतनिश्चयः</span>
+    (<i>tasmād uttiṣṭha kaunteya yuddhāya kṛta-niścayaḥ</i> — <b>BG 2.37</b>) — “Therefore stand up, resolved
+    to fight.” The jñānī fights not to <b>gain</b> anything (all is already Brahman) and not to
+    <b>destroy</b> anyone (no one is other than Brahman) — but to allow Brahman-as-dharma to be
+    re-established through this particular body-mind. The battle becomes a <b>ritual offering</b>,
+    and every arrow is a mantra.
+
+    <h4>Practical summary — how 4.19 → 4.24 lands in daily life</h4>
+    <table class="qa-tbl">
+      <thead><tr><th>If the mind still says…</th><th>Kṛṣṇa's answer (Ch 4)</th></tr></thead>
+      <tbody>
+        <tr><td>“But I <b>want</b> a specific outcome.”</td>
+            <td><b>4.19 &amp; 4.20</b> — undertake action <i>kāma-saṅkalpa-varjita</i>; be
+              <i>nitya-tṛpta</i>, fulfilled independently of the result.</td></tr>
+        <tr><td>“But this is <b>mine</b> to protect.”</td>
+            <td><b>4.21</b> — <i>tyakta-sarva-parigraha</i>; let only the body act, drop possessiveness.</td></tr>
+        <tr><td>“But I'm swinging between hope and fear.”</td>
+            <td><b>4.22</b> — <i>dvandva-atīta, sama siddhy-asiddhau</i>; abide beyond the pairs of opposites.</td></tr>
+        <tr><td>“But how will I stop accumulating karma?”</td>
+            <td><b>4.23</b> — act as <i>yajña</i>; <i>karma samagraṁ pravilīyate</i>.</td></tr>
+        <tr><td>“Then what remains of me, and of the world?”</td>
+            <td><b>4.24</b> — only Brahman. Offering, oblation, fire, offerer, goal — all Brahman.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="takeaway">
+      <b>🌟 The single thread of 4.7 → 4.24</b><br><br>
+      Kṛṣṇa began this chapter with the Divine's own unbounded action (<i>yadā yadā hi dharmasya</i>) —
+      He acts, yet is not bound. He now closes with the mirror teaching: <b>you too can act, yet not
+      be bound</b>, once every element of the act is seen as Brahman.<br><br>
+      <b style="color:#7a1f1f">Chapter 4 is not a promise that God will fix the world for you.
+      It is an initiation into acting <i>as</i> God acts — with total engagement, and total
+      non-attachment.</b>
+    </div>
+  </div>
+</div>
+
+<footer class="page-foot">
+  ॥ श्रीमद्भगवद्गीता ॥ &nbsp;·&nbsp; Chapter 4 Q&amp;A — Jñāna Yoga
+</footer>
+
+</div><!-- /page 6 -->
+
+</body>
+</html>

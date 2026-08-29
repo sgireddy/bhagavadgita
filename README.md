@@ -20,7 +20,7 @@ A complete set of color-coded study sheets for the **entire Bhagavad Gītā**, w
 - [Ch 1 — Arjuna-Viṣāda Yoga](part1_karma/ch01_arjuna_visada.html)
 - [Ch 2 — Sāṅkhya Yoga](part1_karma/ch02_sankhya.html)
 - [Ch 3 — Karma Yoga](part1_karma/ch03_karma.html)
-- [Ch 4 — Jñāna-Karma-Sannyāsa Yoga](part1_karma/ch04_jnana_karma_sannyasa.html)
+- [Ch 4 — Jñāna-Karma-Sannyāsa Yoga](part1_karma/ch04_jnana_karma_sannyasa.html) &nbsp;·&nbsp; [Q&A: Jñāna Yoga (4.7–4.24)](part1_karma/ch04_qa/qa_jnana_yoga.html)
 - [Ch 5 — Karma-Sannyāsa Yoga](part1_karma/ch05_karma_sannyasa.html)
 - [Ch 6 — Dhyāna Yoga](part1_karma/ch06_dhyana.html)
 
