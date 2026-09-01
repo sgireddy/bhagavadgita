@@ -16,6 +16,7 @@ files=(
   "part1_karma/ch02_sankhya.html"
   "part1_karma/ch03_karma.html"
   "part1_karma/ch04_jnana_karma_sannyasa.html"
+  "part1_karma/ch04_qa/qa_jnana_yoga.html"
   "part1_karma/ch05_karma_sannyasa.html"
   "part1_karma/ch06_dhyana.html"
   "part2_bhakti/part2_overview.html"
