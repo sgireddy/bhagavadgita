@@ -44,6 +44,48 @@ A complete set of color-coded study sheets for the **entire Bhagavad Gītā**, w
 
 Every HTML file has a matching `.pdf` next to it (generated via headless Chromium).
 
+## 📜 Chapter names per Ādi-Śaṅkara's Bhāṣya
+
+The per-chapter sheets above use the *popular* modern titles. Ādi-Śaṅkara's
+commentary (Bhāṣya) closes each adhyāya with a **colophon** (the *iti … nāma
+yogaḥ* line) that sometimes gives a different — and more classical — name.
+The table below maps each chapter to Śaṅkara's colophon name.
+
+Śaṅkara groups the 18 chapters into three **ṣaṭkas** (sextets) that mirror the
+Upaniṣadic *tat-tvam-asi*: **Tvam** (the individual self, Ch 1–6), **Tat**
+(the Lord, Ch 7–12), and **Asi** (their identity, Ch 13–18).
+
+| Ch | Śaṅkara's colophon name | Popular title (used in this repo) |
+|---|---|---|
+| **First ṣaṭka — "Tvam" (Ch 1–6)** | | |
+| 1 | Arjuna-Viṣāda Yoga | Arjuna-Viṣāda Yoga |
+| 2 | Sāṅkhya Yoga | Sāṅkhya Yoga |
+| 3 | Karma Yoga | Karma Yoga |
+| 4 | Jñāna-Karma-Sannyāsa Yoga | Jñāna-Karma-Sannyāsa Yoga |
+| 5 | Karma-Sannyāsa Yoga (Sannyāsa Yoga) | Karma-Sannyāsa Yoga |
+| 6 | **Ātma-Saṃyama Yoga** (आत्मसंयमयोग) | Dhyāna Yoga |
+| **Second ṣaṭka — "Tat" (Ch 7–12)** | | |
+| 7 | (Jñāna-)Vijñāna Yoga | Jñāna-Vijñāna Yoga |
+| 8 | Akṣara-Brahma Yoga | Akṣara-Brahma Yoga |
+| 9 | Rāja-Vidyā-Rāja-Guhya Yoga | Rāja-Vidyā Rāja-Guhya Yoga |
+| 10 | Vibhūti Yoga | Vibhūti Yoga |
+| 11 | Viśva-Rūpa-Darśana Yoga | Viśva-Rūpa-Darśana Yoga |
+| 12 | Bhakti Yoga | Bhakti Yoga |
+| **Third ṣaṭka — "Asi" (Ch 13–18)** | | |
+| 13 | Kṣetra-Kṣetrajña-**Vibhāga** Yoga | Kṣetra-Kṣetrajña Yoga |
+| 14 | Guṇa-Traya-**Vibhāga** Yoga | Guṇa-Traya Yoga |
+| 15 | Puruṣottama Yoga | Puruṣottama Yoga |
+| 16 | Daivāsura-Sampad-**Vibhāga** Yoga | Daivāsura-Sampad Yoga |
+| 17 | Śraddhā-Traya-**Vibhāga** Yoga | Śraddhā-Traya Yoga |
+| 18 | Mokṣa-Sannyāsa Yoga | Mokṣa-Sannyāsa Yoga |
+
+**Notes**
+- **Ch 6** is titled **Ātma-Saṃyama Yoga** ("Yoga of Self-restraint") in
+  Śaṅkara's colophon, though it is popularly known today as *Dhyāna Yoga*.
+- **Ch 7** carries the **Vijñāna** ("realization") name in the tradition.
+- The four "analysis" chapters (13, 14, 16, 17) include **-vibhāga**
+  ("classification / analysis") in Śaṅkara's colophons.
+
 ## 🎨 Color scheme
 
 | Element | Color |
